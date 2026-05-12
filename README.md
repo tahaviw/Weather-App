@@ -4,6 +4,9 @@ A lightweight, client-side weather application that queries the OpenWeatherMap A
 
 ---
 
+## You can view the live demo of the project here: https://weather-app-tahaviw.netlify.app/
+
+---
 ## Features
 
 - **Live weather data** via OpenWeatherMap REST API (`/data/2.5/weather`)
