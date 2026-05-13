@@ -5,7 +5,7 @@ const displayEl = document.querySelector("#container")
 searchBtn.addEventListener("click", getWeather)
 async function getWeather() {
     const cityName = inputEl.value
-    const apiKey = "96bb4fadaf7de4b6181472b18b4e3654"
+    const apiKey = "96bb4fadaf7de4b6181472b18b4e3654" // change API Key
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`
     try {
         const response = await fetch(url)  // wait for fetch
